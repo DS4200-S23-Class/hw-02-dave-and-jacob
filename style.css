@@ -14,7 +14,7 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
 }
 
 /* Center image within parent */
@@ -42,3 +42,37 @@ td{
     border-bottom: 1px solid #ddd;
 }
 
+/* Flexbox for shapes */
+.shape_container{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+  
+/* Container for circle svgs */
+.circle_container {
+    fill: magenta;
+    opacity: 0.5;
+    width: 75px;
+    height: 75px;
+  }
+
+  /* Container for rectangle svgs */
+.rectangle_container {
+    fill: skyblue;
+    stroke: maroon;
+    stroke-width: 5;
+    width: 75px;
+    height: 75px;
+  }
+
+  /* Hover feature for rect  */
+.rectangle_container:hover {
+    fill: lightgreen;
+  }
+  
+  /* Hover feature for circle */
+.circle_container:hover {
+    stroke: blue;
+    stroke-width: 6;
+  }
