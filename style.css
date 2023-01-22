@@ -1,18 +1,23 @@
 /* Styling */
+
+/* Making the entire page Arial font */
 body {
     font-family: Arial;
 }
 
+/* Used to make the table header blue */
 .blue {
     background-color: skyblue;
 }
 
+/* Flexbox container */
 .container {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
 }
 
+/* Center image within parent */
 .center-image {
     display: block;
     margin-left: auto;
@@ -20,23 +25,20 @@ body {
     width: 95%;
 }
 
+/* styling for table */
 #data-table {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width:95%;
-    border:black;
 }
-
+/* Universal tag for centering text */
 #center-text {
     text-align: center;
 }
 
-#left {
-    text-align: left;
-}
-
-tr,td,th{
+/* Adding line style on a table */
+td{
     border-bottom: 1px solid #ddd;
 }
 

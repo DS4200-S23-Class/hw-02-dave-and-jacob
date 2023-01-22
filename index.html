@@ -2,6 +2,7 @@
 <html> 
 
 <head>
+    <!-- Linking style sheet and giving page title -->
     <meta charset=utf-8/>
     <link rel="stylesheet" href="style.css">
     <title>hw-02</title>
@@ -9,10 +10,12 @@
 
 
 <body>
+    <!-- First div contains data abstraction information about the given datasets -->
     <div id="data-abstraction">
         <div class="info">
             <h1 id="center-text">Dataset Types</h1>
-            
+
+            <!-- Table Containing Dataset information -->
             <table id ="data-table">
                 <tr class="blue">
                   <th>Data</th>
@@ -36,10 +39,13 @@
                 </tr>
               </table>
         </div>
+        <!-- Div containing info more specific info about the data within each dataset -->
         <div class="info">
             <h1 id="center-text">Data Types</h1>
             
+            <!-- Datatypes for rows and columns in UFO dataset -->
             <h2 id="left">UFO</h2>
+
             <ul>
                 <li>Row Data Type: Item</li>
                 <li>Datetime: Attribute </li>
@@ -63,6 +69,7 @@
                     <li>Attribute Type: Ordered (Quantitative) </li>
                 </ul>
             </ul>
+            <!-- Datatypes for rows and columns in Airports dataset -->
             <h2 id="left">Aiports</h2>
             <ul>
                 <li>Row Data Type: Item</li>
@@ -73,6 +80,7 @@
                 <li>LATITUDE & LONGITUDE: Position </li>
                 
             </ul>
+            <!-- Datatypes for rows and columns in Google-Web dataset -->
             <h2 id="left">Google-Web</h2>
             <ul>
                 <li>Row Data Type: Link</li>
@@ -88,16 +96,18 @@
             </ul>
         </div>
     </div>
+    <!-- Task abstraction section where we discuss visualizations and break them down into different levels -->
     <div id="task-abstraction">
         <h1 id="center-text">Task Abstraction</h1>
+        <!-- Utilizing flexbox to make the image sizing and layout dynamic -->
         <div class="container">
-            <section class="left">
+            <section>
                 <img src="/img/vis1.png" class="center-image">
                 <p>Test</p>
                 <p>Test</p>
                 
             </section>
-            <section class="right">
+            <section>
                 <img src="/img/vis2.png" class="center-image">
                 <p>Test</p>
                 <p>Test</p>
@@ -109,6 +119,7 @@
 
 
     </div>
+    <!-- Making sure to cite our sources -->
     <h3 id="center-text">References</h3>
     <div id="references">
         <ul>
