@@ -47,50 +47,50 @@
             <h2 id="left">UFO</h2>
 
             <ul>
-                <li>Row Data Type: Item</li>
-                <li>Datetime: Attribute </li>
+                <li>Row Data Type: Item (Rows in tables are individual entities that are discrete</li>
+                <li>Datetime: Attribute</li>
                 <ul>
-                    <li>Attribute Type: Ordered (Quantitative) </li>
+                    <li>Attribute Type: Ordered (Sequential Quantitative because they can be ordered and continually incraese)</li>
                 </ul>
-                <li>City: Attribute </li>
+                <li>City: Attribute</li>
                 <ul>
-                    <li>Attribute Type: Categorical </li>
+                    <li>Attribute Type: Categorical (Specific attribute that can be observed, can be grouped into categories)</li>
                 </ul>
                 <li>State: Attribute </li>
                 <ul>
-                    <li>Attribute Type: Categorical </li>
+                    <li>Attribute Type: Categorical (Can be observed and grouped into categories)</li>
                 </ul>
                 <li>Country: Attribute </li>
                 <ul>
-                    <li>Attribute Type: Categorical </li>
+                    <li>Attribute Type: Categorical (Can be observed and grouped into categories)</li>
                 </ul>
                 <li>Duration(seconds): Attribute </li>
                 <ul>
-                    <li>Attribute Type: Ordered (Quantitative) </li>
+                    <li>Attribute Type: Ordered (Quantitative Sequential because they start at 0 and can only increase) </li>
                 </ul>
             </ul>
             <!-- Datatypes for rows and columns in Airports dataset -->
             <h2 id="left">Aiports</h2>
             <ul>
                 <li>Row Data Type: Item</li>
-                <li>AIRPORT_NAME: Attribute </li>
+                <li>AIRPORT_NAME: Attribute</li>
                 <ul>
-                    <li>Attribute Type: Categorical </li>
+                    <li>Attribute Type: Categorical (Categorical because can be obeserved and grouped into categories) </li>
                 </ul>
-                <li>LATITUDE & LONGITUDE: Position </li>
+                <li>LATITUDE & LONGITUDE: Position (Provides a location in 2d, coordinates)</li>
                 
             </ul>
             <!-- Datatypes for rows and columns in Google-Web dataset -->
             <h2 id="left">Google-Web</h2>
             <ul>
-                <li>Row Data Type: Link</li>
+                <li>Row Data Type: Link (Shows the relationship between two nodes)</li>
                 <li>FromNodeId: Attribute</li>
                 <ul>
-                    <li>Attribute Type: Categorical</li>
+                    <li>Attribute Type: Categorical (Although numeric, its used as a unique identifier rather than ordering values)</li>
                 </ul>
                 <li>ToNodeId: Attribute</li>
                 <ul>
-                    <li>Attribute Type: Categorical</li>
+                    <li>Attribute Type: Categorical (Although numeric, its used as a unique identifier rather than ordering values)</li>
                 </ul>
                 
             </ul>
@@ -103,14 +103,18 @@
         <div class="container">
             <section>
                 <img src="/img/vis1.png" class="center-image">
-                <p>Test</p>
-                <p>Test</p>
-                
+                <p>High: Present (The designers are showing observation they've already discovered).</p>
+                <p>Medium: Browse (We know the location by knowing what month it currently is but don't necessarily know what we're looking for in the visualization).</p>
+                <p>Low: Compare (We're comparing recent points to historic points).</p>
+                <p>Target: Outliers (Shows that recent data is far away from historic data points). </p>
             </section>
+
             <section>
                 <img src="/img/vis2.png" class="center-image">
-                <p>Test</p>
-                <p>Test</p>
+                <p>High: Present (The Climatology Network is showing us that temperatures have been on the rise). </p>
+                <p>Medium: Locate (Location is unknown but we knew that we were targeting tempertature increases/climate change).</p>
+                <p>Low: Compare (Multiple targets that are being affected similarly).</p>
+                <p>Target: Similarity (It's showing us that temperatures in Portland and Seattle are increasing similarly which could also argue that the target is Trend).</p>
             </section>
         </div>
     </div>
